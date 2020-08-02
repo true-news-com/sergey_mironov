@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+border: 0;	
+}
+*,*:before,*:after{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust:100%;
+-moz-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;	
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+/*--------------------------------------------------------------------*/
+body{
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.wrapper{
+
+	min-width: 1200px;
+	max-width: 3000px;
+	height: 2200px;
+	background-color: #2C2C2A; 
+}
+
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	height: 100%;
+
+}
+
+.header{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align: center;
+	padding-top: 30px;
+	height: 200px;
+	font-size: 100px;
+}
+
+.main{
+
+}
+
+.main img{
+	padding-left: 380px;
+	padding-top: 40px;
+}
+
+#contact{                       /*#F7FF0A*/
+	text-align: center;
+	padding-top: 150px;
+	font-size: 50px;
+}
+
+.nav{
+	font-size: 200px;
+	text-align: center;
+
+}
+
+.nav_items{
+	margin-bottom: 50px;
+	
+}
+
+.nav__link{
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+.nav__link:hover{
+	color: #F7FF0A;
+}
+
+#teleg{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+#vk{
+	padding-bottom: 100px;
+}
+
+#inst{
+	padding-bottom: 100px;
+}
+
+.hint{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 80px;
+}
+
+.hint p{
+	font-family: 'PT Sans Caption', sans-serif;
+	margin-top: 100px;
+}
+
+
+.footer{
+	min-width: 1200px;
+	height: 100px;
+	color: #fff;
+	background-color: #060606;
+	font-size: 25px;
+	text-align: center;
+	padding-top:  15px;
+}
+
+#email{
+	padding-top: 5px;
+	color: #F7FF0A;
+
+}
+
+#email:hover{
+	color: lime;
+}
